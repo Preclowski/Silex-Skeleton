@@ -1,4 +1,6 @@
 {
+    "name": "preclowski/silex-skeleton",
+    "description": "Silex boilerplate",
     "require": {
         "silex/silex": "~1.0",
         "symfony/browser-kit": "~2.3",
@@ -20,5 +22,8 @@
         "doctrine/dbal": ">=2.2.0,<2.4.0-dev",
         "swiftmailer/swiftmailer": "5.*",
         "mheap/Silex-Assetic": "dev-master@dev"
+    },
+    "autoload": {
+        "psr-0": { "": "src/" }
     }
 }
